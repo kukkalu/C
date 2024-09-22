@@ -223,8 +223,6 @@ async def account_login(bot: Client, m: Message):
             if "jw-prod" in url:
                 cmd = f'yt-dlp -o "{name}.mp4" "{url}"'
                 
-            if self.url.startswith('https://cwmediabkt99.crwilladmin.com/') and self.url.endswith('.pdf'):
-                cmd = f'yt-dlp -o "{name}.pdf" "{url}"'    
             else:
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
