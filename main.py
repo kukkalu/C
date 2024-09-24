@@ -29,7 +29,7 @@ from Crypto.Util.Padding import unpad
 from base64 import b64encode, b64decode
 
 
-credit ="𝐏𝐀𝐓𝐇𝐀𝐍 𝐒𝐈𝐑™~" 
+credit ="🤍" 
 OWNER = int(os.environ.get("OWNER", 502980590))
 try: 
     ADMINS=[] 
